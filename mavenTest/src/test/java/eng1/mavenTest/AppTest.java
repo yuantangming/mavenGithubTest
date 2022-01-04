@@ -20,6 +20,7 @@ public class AppTest
     @Test
     public void testShouldAnswerWithFalse()
     {
+<<<<<<< HEAD
         assertTrue( true );
     }  
     
@@ -29,4 +30,8 @@ public class AppTest
         assertTrue( true );
     }  
     
+=======
+        assertTrue( false );
+    }
+>>>>>>> branch 'master' of https://github.com/yuantangming/mavenGithubTest.git
 }
