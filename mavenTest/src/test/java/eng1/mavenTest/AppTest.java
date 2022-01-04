@@ -24,10 +24,10 @@ public class AppTest
         assertTrue( false );
     }  
     
-    @Test
-    public void testShouldAnswerWithFalse2()
-    {
-        assertTrue( false );
-    }  
+   // @Test
+   // public void testShouldAnswerWithFalse2()
+   // {
+   //     assertTrue( false );
+   // }  
     
 }
