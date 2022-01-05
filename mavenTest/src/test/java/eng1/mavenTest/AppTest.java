@@ -15,13 +15,5 @@ public class AppTest
     public void testShouldAnswerWithTrue()
     {
         assertTrue( true );
-    }
-    
-    @Test
-    public void testShouldAnswerWithFalse1()
-    {
-        assertTrue( false );
-    }
-    
-    
+    }   
 }
