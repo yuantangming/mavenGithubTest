@@ -12,11 +12,11 @@ on:
 jobs:
   build:
 
-   #runs-on: ubuntu-latest
-   runs-on: ${{ matrix.os }}
-   strategy:
-    matrix:
-        os: [ubuntu-latest, macos-latest, windows-latest]
+   runs-on: ubuntu-latest
+   #runs-on: ${{ matrix.os }}
+   #strategy:
+   # matrix:
+   #     os: [ubuntu-latest, macos-latest, windows-latest]
 
    steps:
     - uses: actions/checkout@v2
@@ -29,8 +29,8 @@ jobs:
     - name: Build with Maven
       run: mvn -B package --file mavenTest/pom.xml # mvn -B package --file pom.xml
       
-    - uses: actions/upload-artifact@v2
-      with:
-        name: my-artifact
-        path: mavenTest/target/
+   # - uses: actions/upload-artifact@v2
+   #   with:
+   #     name: my-artifact
+   #     path: mavenTest/target/
 
